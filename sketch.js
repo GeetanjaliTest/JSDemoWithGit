@@ -33,7 +33,8 @@ function draw()
   if (keyIsDown(DOWN_ARROW)) 
   {
     box.position.y = box.position.y + 5;
-    box.shapeColor="orange";
+    //box.shapeColor="orange";
+    box.shapeColor="green";
   }
 
   drawSprites();
